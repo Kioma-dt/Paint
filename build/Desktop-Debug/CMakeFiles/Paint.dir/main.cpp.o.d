@@ -362,6 +362,9 @@ CMakeFiles/Paint.dir/main.cpp.o: /home/roma/Documents/QT/Paint/main.cpp \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QTransform \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qnativeinterface.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QPushButton \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qpushbutton.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractbutton.h \
  /home/roma/Documents/QT/Paint/paintscene.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsScene \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsscene.h \
@@ -378,7 +381,14 @@ CMakeFiles/Paint.dir/main.cpp.o: /home/roma/Documents/QT/Paint/main.cpp \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QPainter \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpainter.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/QPolygon \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h \
  /home/roma/Documents/QT/Paint/rect.h \
+ /home/roma/Documents/QT/Paint/rhomb.h \
+ /home/roma/Documents/QT/Paint/triangle.h \
+ /home/roma/Documents/QT/Paint/circle.h \
+ /home/roma/Documents/QT/Paint/square.h \
+ /home/roma/Documents/QT/Paint/hexagon.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qapplication.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication.h \

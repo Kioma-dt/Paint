@@ -12,11 +12,11 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QGraphicsView>
+#include <QtWidgets/QGridLayout>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
-#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -25,11 +25,14 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QVBoxLayout *verticalLayout;
-    QGraphicsView *graphicsView;
+    QGridLayout *gridLayout;
     QPushButton *buttonRect;
-    QPushButton *buttonRhomb;
+    QPushButton *buttonCircle;
     QPushButton *buttonTriangle;
+    QPushButton *buttonRhomb;
+    QGraphicsView *graphicsView;
+    QPushButton *buttonSquare;
+    QPushButton *buttonHexagon;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -40,27 +43,42 @@ public:
         MainWindow->resize(581, 501);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
-        verticalLayout = new QVBoxLayout(centralwidget);
-        verticalLayout->setObjectName("verticalLayout");
-        graphicsView = new QGraphicsView(centralwidget);
-        graphicsView->setObjectName("graphicsView");
-
-        verticalLayout->addWidget(graphicsView);
-
+        gridLayout = new QGridLayout(centralwidget);
+        gridLayout->setObjectName("gridLayout");
         buttonRect = new QPushButton(centralwidget);
         buttonRect->setObjectName("buttonRect");
 
-        verticalLayout->addWidget(buttonRect);
+        gridLayout->addWidget(buttonRect, 3, 1, 1, 1);
 
-        buttonRhomb = new QPushButton(centralwidget);
-        buttonRhomb->setObjectName("buttonRhomb");
+        buttonCircle = new QPushButton(centralwidget);
+        buttonCircle->setObjectName("buttonCircle");
 
-        verticalLayout->addWidget(buttonRhomb);
+        gridLayout->addWidget(buttonCircle, 4, 1, 1, 1);
 
         buttonTriangle = new QPushButton(centralwidget);
         buttonTriangle->setObjectName("buttonTriangle");
 
-        verticalLayout->addWidget(buttonTriangle);
+        gridLayout->addWidget(buttonTriangle, 2, 1, 1, 1);
+
+        buttonRhomb = new QPushButton(centralwidget);
+        buttonRhomb->setObjectName("buttonRhomb");
+
+        gridLayout->addWidget(buttonRhomb, 2, 0, 1, 1);
+
+        graphicsView = new QGraphicsView(centralwidget);
+        graphicsView->setObjectName("graphicsView");
+
+        gridLayout->addWidget(graphicsView, 0, 0, 1, 2);
+
+        buttonSquare = new QPushButton(centralwidget);
+        buttonSquare->setObjectName("buttonSquare");
+
+        gridLayout->addWidget(buttonSquare, 3, 0, 1, 1);
+
+        buttonHexagon = new QPushButton(centralwidget);
+        buttonHexagon->setObjectName("buttonHexagon");
+
+        gridLayout->addWidget(buttonHexagon, 4, 0, 1, 1);
 
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
@@ -80,8 +98,11 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         buttonRect->setText(QCoreApplication::translate("MainWindow", "Rectangle", nullptr));
-        buttonRhomb->setText(QCoreApplication::translate("MainWindow", "Rhomb", nullptr));
+        buttonCircle->setText(QCoreApplication::translate("MainWindow", "Circle", nullptr));
         buttonTriangle->setText(QCoreApplication::translate("MainWindow", "Triangle", nullptr));
+        buttonRhomb->setText(QCoreApplication::translate("MainWindow", "Rhomb", nullptr));
+        buttonSquare->setText(QCoreApplication::translate("MainWindow", "Square", nullptr));
+        buttonHexagon->setText(QCoreApplication::translate("MainWindow", "Hexagon", nullptr));
     } // retranslateUi
 
 };

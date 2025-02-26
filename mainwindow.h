@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QTimer>
 #include <QResizeEvent>
+#include <QPushButton>
 #include "paintscene.h"
 
 QT_BEGIN_NAMESPACE
@@ -26,6 +27,12 @@ private:
 
 private slots:
     void timerSlot();
+    void buttonRectClick();
+    void buttonRhombClick();
+    void buttonTriangleClick();
+    void buttonCircleClick();
+    void buttonSquareClick();
+    void buttonHexagonClick();
 
 private:
     void resizeEvent(QResizeEvent* event);

@@ -160,6 +160,76 @@ CMakeFiles/Paint.dir/rect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Paint.dir/rect.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roma/Documents/QT/Paint/rect.cpp -o CMakeFiles/Paint.dir/rect.cpp.s
 
+CMakeFiles/Paint.dir/rhomb.cpp.o: CMakeFiles/Paint.dir/flags.make
+CMakeFiles/Paint.dir/rhomb.cpp.o: /home/roma/Documents/QT/Paint/rhomb.cpp
+CMakeFiles/Paint.dir/rhomb.cpp.o: CMakeFiles/Paint.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roma/Documents/QT/Paint/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Paint.dir/rhomb.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Paint.dir/rhomb.cpp.o -MF CMakeFiles/Paint.dir/rhomb.cpp.o.d -o CMakeFiles/Paint.dir/rhomb.cpp.o -c /home/roma/Documents/QT/Paint/rhomb.cpp
+
+CMakeFiles/Paint.dir/rhomb.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Paint.dir/rhomb.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roma/Documents/QT/Paint/rhomb.cpp > CMakeFiles/Paint.dir/rhomb.cpp.i
+
+CMakeFiles/Paint.dir/rhomb.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Paint.dir/rhomb.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roma/Documents/QT/Paint/rhomb.cpp -o CMakeFiles/Paint.dir/rhomb.cpp.s
+
+CMakeFiles/Paint.dir/triangle.cpp.o: CMakeFiles/Paint.dir/flags.make
+CMakeFiles/Paint.dir/triangle.cpp.o: /home/roma/Documents/QT/Paint/triangle.cpp
+CMakeFiles/Paint.dir/triangle.cpp.o: CMakeFiles/Paint.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roma/Documents/QT/Paint/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Paint.dir/triangle.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Paint.dir/triangle.cpp.o -MF CMakeFiles/Paint.dir/triangle.cpp.o.d -o CMakeFiles/Paint.dir/triangle.cpp.o -c /home/roma/Documents/QT/Paint/triangle.cpp
+
+CMakeFiles/Paint.dir/triangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Paint.dir/triangle.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roma/Documents/QT/Paint/triangle.cpp > CMakeFiles/Paint.dir/triangle.cpp.i
+
+CMakeFiles/Paint.dir/triangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Paint.dir/triangle.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roma/Documents/QT/Paint/triangle.cpp -o CMakeFiles/Paint.dir/triangle.cpp.s
+
+CMakeFiles/Paint.dir/circle.cpp.o: CMakeFiles/Paint.dir/flags.make
+CMakeFiles/Paint.dir/circle.cpp.o: /home/roma/Documents/QT/Paint/circle.cpp
+CMakeFiles/Paint.dir/circle.cpp.o: CMakeFiles/Paint.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roma/Documents/QT/Paint/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Paint.dir/circle.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Paint.dir/circle.cpp.o -MF CMakeFiles/Paint.dir/circle.cpp.o.d -o CMakeFiles/Paint.dir/circle.cpp.o -c /home/roma/Documents/QT/Paint/circle.cpp
+
+CMakeFiles/Paint.dir/circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Paint.dir/circle.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roma/Documents/QT/Paint/circle.cpp > CMakeFiles/Paint.dir/circle.cpp.i
+
+CMakeFiles/Paint.dir/circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Paint.dir/circle.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roma/Documents/QT/Paint/circle.cpp -o CMakeFiles/Paint.dir/circle.cpp.s
+
+CMakeFiles/Paint.dir/square.cpp.o: CMakeFiles/Paint.dir/flags.make
+CMakeFiles/Paint.dir/square.cpp.o: /home/roma/Documents/QT/Paint/square.cpp
+CMakeFiles/Paint.dir/square.cpp.o: CMakeFiles/Paint.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roma/Documents/QT/Paint/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Paint.dir/square.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Paint.dir/square.cpp.o -MF CMakeFiles/Paint.dir/square.cpp.o.d -o CMakeFiles/Paint.dir/square.cpp.o -c /home/roma/Documents/QT/Paint/square.cpp
+
+CMakeFiles/Paint.dir/square.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Paint.dir/square.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roma/Documents/QT/Paint/square.cpp > CMakeFiles/Paint.dir/square.cpp.i
+
+CMakeFiles/Paint.dir/square.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Paint.dir/square.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roma/Documents/QT/Paint/square.cpp -o CMakeFiles/Paint.dir/square.cpp.s
+
+CMakeFiles/Paint.dir/hexagon.cpp.o: CMakeFiles/Paint.dir/flags.make
+CMakeFiles/Paint.dir/hexagon.cpp.o: /home/roma/Documents/QT/Paint/hexagon.cpp
+CMakeFiles/Paint.dir/hexagon.cpp.o: CMakeFiles/Paint.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/roma/Documents/QT/Paint/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Paint.dir/hexagon.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Paint.dir/hexagon.cpp.o -MF CMakeFiles/Paint.dir/hexagon.cpp.o.d -o CMakeFiles/Paint.dir/hexagon.cpp.o -c /home/roma/Documents/QT/Paint/hexagon.cpp
+
+CMakeFiles/Paint.dir/hexagon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Paint.dir/hexagon.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roma/Documents/QT/Paint/hexagon.cpp > CMakeFiles/Paint.dir/hexagon.cpp.i
+
+CMakeFiles/Paint.dir/hexagon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Paint.dir/hexagon.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roma/Documents/QT/Paint/hexagon.cpp -o CMakeFiles/Paint.dir/hexagon.cpp.s
+
 # Object files for target Paint
 Paint_OBJECTS = \
 "CMakeFiles/Paint.dir/Paint_autogen/mocs_compilation.cpp.o" \
@@ -167,7 +237,12 @@ Paint_OBJECTS = \
 "CMakeFiles/Paint.dir/mainwindow.cpp.o" \
 "CMakeFiles/Paint.dir/paintscene.cpp.o" \
 "CMakeFiles/Paint.dir/figure.cpp.o" \
-"CMakeFiles/Paint.dir/rect.cpp.o"
+"CMakeFiles/Paint.dir/rect.cpp.o" \
+"CMakeFiles/Paint.dir/rhomb.cpp.o" \
+"CMakeFiles/Paint.dir/triangle.cpp.o" \
+"CMakeFiles/Paint.dir/circle.cpp.o" \
+"CMakeFiles/Paint.dir/square.cpp.o" \
+"CMakeFiles/Paint.dir/hexagon.cpp.o"
 
 # External object files for target Paint
 Paint_EXTERNAL_OBJECTS =
@@ -178,6 +253,11 @@ Paint: CMakeFiles/Paint.dir/mainwindow.cpp.o
 Paint: CMakeFiles/Paint.dir/paintscene.cpp.o
 Paint: CMakeFiles/Paint.dir/figure.cpp.o
 Paint: CMakeFiles/Paint.dir/rect.cpp.o
+Paint: CMakeFiles/Paint.dir/rhomb.cpp.o
+Paint: CMakeFiles/Paint.dir/triangle.cpp.o
+Paint: CMakeFiles/Paint.dir/circle.cpp.o
+Paint: CMakeFiles/Paint.dir/square.cpp.o
+Paint: CMakeFiles/Paint.dir/hexagon.cpp.o
 Paint: CMakeFiles/Paint.dir/build.make
 Paint: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 Paint: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
@@ -185,7 +265,7 @@ Paint: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 Paint: /usr/lib/x86_64-linux-gnu/libGLX.so
 Paint: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 Paint: CMakeFiles/Paint.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/roma/Documents/QT/Paint/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Paint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/roma/Documents/QT/Paint/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Paint"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Paint.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

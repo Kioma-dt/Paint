@@ -26,6 +26,11 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         paintscene.h paintscene.cpp
         figure.h figure.cpp
         rect.h rect.cpp
+        rhomb.h rhomb.cpp
+        triangle.h triangle.cpp
+        circle.h circle.cpp
+        square.h square.cpp
+        hexagon.h hexagon.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Paint APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
