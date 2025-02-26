@@ -1,7 +1,12 @@
 /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/moc_paintscene.cpp: /home/roma/Documents/QT/Paint/paintscene.h \
   /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/moc_predefs.h \
+  /home/roma/Documents/QT/Paint/circle.h \
   /home/roma/Documents/QT/Paint/figure.h \
+  /home/roma/Documents/QT/Paint/hexagon.h \
   /home/roma/Documents/QT/Paint/rect.h \
+  /home/roma/Documents/QT/Paint/rhomb.h \
+  /home/roma/Documents/QT/Paint/square.h \
+  /home/roma/Documents/QT/Paint/triangle.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -372,6 +377,7 @@
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qversiontagging.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QPainter \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QPolygon \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qbrush.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qcolor.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qfont.h \

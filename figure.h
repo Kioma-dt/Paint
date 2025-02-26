@@ -5,6 +5,7 @@
 #include <QObject>
 #include <QPointF>
 #include <QPainter>
+#include <QPolygon>
 
 class Figure : public QObject, public QGraphicsItem
 {

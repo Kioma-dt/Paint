@@ -224,6 +224,30 @@ Paint_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/Paint_autogen/mocs_compilation.cpp.s
 .PHONY : Paint_autogen/mocs_compilation.cpp.s
 
+circle.o: circle.cpp.o
+.PHONY : circle.o
+
+# target to build an object file
+circle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/circle.cpp.o
+.PHONY : circle.cpp.o
+
+circle.i: circle.cpp.i
+.PHONY : circle.i
+
+# target to preprocess a source file
+circle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/circle.cpp.i
+.PHONY : circle.cpp.i
+
+circle.s: circle.cpp.s
+.PHONY : circle.s
+
+# target to generate assembly for a file
+circle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/circle.cpp.s
+.PHONY : circle.cpp.s
+
 figure.o: figure.cpp.o
 .PHONY : figure.o
 
@@ -247,6 +271,30 @@ figure.s: figure.cpp.s
 figure.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/figure.cpp.s
 .PHONY : figure.cpp.s
+
+hexagon.o: hexagon.cpp.o
+.PHONY : hexagon.o
+
+# target to build an object file
+hexagon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/hexagon.cpp.o
+.PHONY : hexagon.cpp.o
+
+hexagon.i: hexagon.cpp.i
+.PHONY : hexagon.i
+
+# target to preprocess a source file
+hexagon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/hexagon.cpp.i
+.PHONY : hexagon.cpp.i
+
+hexagon.s: hexagon.cpp.s
+.PHONY : hexagon.s
+
+# target to generate assembly for a file
+hexagon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/hexagon.cpp.s
+.PHONY : hexagon.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -344,6 +392,78 @@ rect.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/rect.cpp.s
 .PHONY : rect.cpp.s
 
+rhomb.o: rhomb.cpp.o
+.PHONY : rhomb.o
+
+# target to build an object file
+rhomb.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/rhomb.cpp.o
+.PHONY : rhomb.cpp.o
+
+rhomb.i: rhomb.cpp.i
+.PHONY : rhomb.i
+
+# target to preprocess a source file
+rhomb.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/rhomb.cpp.i
+.PHONY : rhomb.cpp.i
+
+rhomb.s: rhomb.cpp.s
+.PHONY : rhomb.s
+
+# target to generate assembly for a file
+rhomb.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/rhomb.cpp.s
+.PHONY : rhomb.cpp.s
+
+square.o: square.cpp.o
+.PHONY : square.o
+
+# target to build an object file
+square.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/square.cpp.o
+.PHONY : square.cpp.o
+
+square.i: square.cpp.i
+.PHONY : square.i
+
+# target to preprocess a source file
+square.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/square.cpp.i
+.PHONY : square.cpp.i
+
+square.s: square.cpp.s
+.PHONY : square.s
+
+# target to generate assembly for a file
+square.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/square.cpp.s
+.PHONY : square.cpp.s
+
+triangle.o: triangle.cpp.o
+.PHONY : triangle.o
+
+# target to build an object file
+triangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/triangle.cpp.o
+.PHONY : triangle.cpp.o
+
+triangle.i: triangle.cpp.i
+.PHONY : triangle.i
+
+# target to preprocess a source file
+triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/triangle.cpp.i
+.PHONY : triangle.cpp.i
+
+triangle.s: triangle.cpp.s
+.PHONY : triangle.s
+
+# target to generate assembly for a file
+triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/triangle.cpp.s
+.PHONY : triangle.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -362,9 +482,15 @@ help:
 	@echo "... Paint_autogen/mocs_compilation.o"
 	@echo "... Paint_autogen/mocs_compilation.i"
 	@echo "... Paint_autogen/mocs_compilation.s"
+	@echo "... circle.o"
+	@echo "... circle.i"
+	@echo "... circle.s"
 	@echo "... figure.o"
 	@echo "... figure.i"
 	@echo "... figure.s"
+	@echo "... hexagon.o"
+	@echo "... hexagon.i"
+	@echo "... hexagon.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -377,6 +503,15 @@ help:
 	@echo "... rect.o"
 	@echo "... rect.i"
 	@echo "... rect.s"
+	@echo "... rhomb.o"
+	@echo "... rhomb.i"
+	@echo "... rhomb.s"
+	@echo "... square.o"
+	@echo "... square.i"
+	@echo "... square.s"
+	@echo "... triangle.o"
+	@echo "... triangle.i"
+	@echo "... triangle.s"
 .PHONY : help
 
 

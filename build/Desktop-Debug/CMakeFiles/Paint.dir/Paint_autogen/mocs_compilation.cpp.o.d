@@ -342,6 +342,8 @@ CMakeFiles/Paint.dir/Paint_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontinfo.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfont.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontmetrics.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/QPolygon \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h \
  /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/moc_paintscene.cpp \
  /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../paintscene.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsScene \
@@ -351,5 +353,10 @@ CMakeFiles/Paint.dir/Paint_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreevent.h \
  /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../figure.h \
  /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../rect.h \
+ /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../rhomb.h \
+ /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../triangle.h \
+ /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../circle.h \
+ /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../square.h \
+ /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../hexagon.h \
  /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/moc_rect.cpp \
  /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../rect.h

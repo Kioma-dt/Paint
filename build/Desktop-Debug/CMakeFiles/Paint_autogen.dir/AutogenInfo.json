@@ -206,9 +206,21 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/roma/Documents/QT/Paint/circle.h",
+			"MU",
+			"EWIEGA46WW/moc_circle.cpp",
+			null
+		],
+		[
 			"/home/roma/Documents/QT/Paint/figure.h",
 			"MU",
 			"EWIEGA46WW/moc_figure.cpp",
+			null
+		],
+		[
+			"/home/roma/Documents/QT/Paint/hexagon.h",
+			"MU",
+			"EWIEGA46WW/moc_hexagon.cpp",
 			null
 		],
 		[
@@ -227,6 +239,24 @@
 			"/home/roma/Documents/QT/Paint/rect.h",
 			"MU",
 			"EWIEGA46WW/moc_rect.cpp",
+			null
+		],
+		[
+			"/home/roma/Documents/QT/Paint/rhomb.h",
+			"MU",
+			"EWIEGA46WW/moc_rhomb.cpp",
+			null
+		],
+		[
+			"/home/roma/Documents/QT/Paint/square.h",
+			"MU",
+			"EWIEGA46WW/moc_square.cpp",
+			null
+		],
+		[
+			"/home/roma/Documents/QT/Paint/triangle.h",
+			"MU",
+			"EWIEGA46WW/moc_triangle.cpp",
 			null
 		]
 	],
@@ -288,11 +318,16 @@
 	"SETTINGS_FILE" : "/home/roma/Documents/QT/Paint/build/Desktop-Debug/CMakeFiles/Paint_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/home/roma/Documents/QT/Paint/circle.cpp", "MU", null ],
 		[ "/home/roma/Documents/QT/Paint/figure.cpp", "MU", null ],
+		[ "/home/roma/Documents/QT/Paint/hexagon.cpp", "MU", null ],
 		[ "/home/roma/Documents/QT/Paint/main.cpp", "MU", null ],
 		[ "/home/roma/Documents/QT/Paint/mainwindow.cpp", "MU", null ],
 		[ "/home/roma/Documents/QT/Paint/paintscene.cpp", "MU", null ],
-		[ "/home/roma/Documents/QT/Paint/rect.cpp", "MU", null ]
+		[ "/home/roma/Documents/QT/Paint/rect.cpp", "MU", null ],
+		[ "/home/roma/Documents/QT/Paint/rhomb.cpp", "MU", null ],
+		[ "/home/roma/Documents/QT/Paint/square.cpp", "MU", null ],
+		[ "/home/roma/Documents/QT/Paint/triangle.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

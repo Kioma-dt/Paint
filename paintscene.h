@@ -5,6 +5,13 @@
 #include <QGraphicsSceneMouseEvent>
 #include "figure.h"
 #include "rect.h"
+#include "rhomb.h"
+#include "triangle.h"
+#include "circle.h"
+#include "square.h"
+#include "hexagon.h"
+
+enum FigureTypes{RectType, RhombType, TriangleType, CircleType, SquareType, HexagonType};
 
 class PaintScene : public QGraphicsScene
 {
@@ -17,8 +24,6 @@ public:
     explicit PaintScene(QObject *parent = 0);
     int typeFigure() const;
     void setTypeFigure(const int type);
-
-    enum FigureTypes{RectType, RhombType, TriangleType};
 
 private:
     int m_typeFigure;
