@@ -6,6 +6,16 @@ Rhomb::Rhomb(QPointF point, QObject *parent)
 
 }
 
+qreal Rhomb::perimetr()
+{
+    return 2 * M_PI * qAbs(startPoint().x() - endPoint().x());
+}
+
+qreal Rhomb::surface()
+{
+    return M_PI * pow(qAbs(startPoint().x() - endPoint().x()), 2);
+}
+
 void Rhomb::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {
     QPen pen(Qt::black, 2);

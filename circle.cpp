@@ -6,6 +6,16 @@ Circle::Circle(QPointF point, QObject *parent)
 
 }
 
+qreal Circle::perimetr()
+{
+    return 2 * M_PI * qAbs(startPoint().x() - endPoint().x());
+}
+
+qreal Circle::surface()
+{
+    return M_PI * pow(qAbs(startPoint().x() - endPoint().x()), 2);
+}
+
 void Circle::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {
     QPen pen(Qt::black, 2);

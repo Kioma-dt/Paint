@@ -6,6 +6,7 @@
 #include <QPointF>
 #include <QPainter>
 #include <QPolygon>
+#include <QGraphicsSceneMouseEvent>
 
 class Figure : public QObject, public QGraphicsItem
 {
@@ -26,6 +27,10 @@ public:
     void setStartPoint(const QPointF point);
     void setEndPoint(const QPointF point);
 
+    QPointF centre();
+    virtual qreal perimetr() = 0;
+    virtual qreal surface() = 0;
+
 signals:
     void pointChanged();
 
@@ -34,6 +39,8 @@ private:
     QPointF m_endPoint;
 
     QRectF boundingRect() const override;
+
+    void mouseMoveEvent(QGraphicsSceneMouseEvent *event);
 
 public slots:
     void updateBounds();

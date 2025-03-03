@@ -6,68 +6,209 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>581</width>
-    <height>501</height>
+    <width>631</width>
+    <height>429</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QGridLayout" name="gridLayout">
-    <item row="3" column="1">
-     <widget class="QPushButton" name="buttonRect">
-      <property name="text">
-       <string>Rectangle</string>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="1">
-     <widget class="QPushButton" name="buttonCircle">
-      <property name="text">
-       <string>Circle</string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="1">
-     <widget class="QPushButton" name="buttonTriangle">
-      <property name="text">
-       <string>Triangle</string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="0">
-     <widget class="QPushButton" name="buttonRhomb">
-      <property name="text">
-       <string>Rhomb</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="0" colspan="2">
-     <widget class="QGraphicsView" name="graphicsView"/>
-    </item>
-    <item row="3" column="0">
-     <widget class="QPushButton" name="buttonSquare">
-      <property name="text">
-       <string>Square</string>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="0">
-     <widget class="QPushButton" name="buttonHexagon">
-      <property name="text">
-       <string>Hexagon</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>9</y>
+      <width>461</width>
+      <height>281</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="verticalGroupBox">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>80</y>
+      <width>117</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QRadioButton" name="radioButtonRectangle">
+       <property name="text">
+        <string>Rectangle</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButtonRhomb">
+       <property name="text">
+        <string>Rhomb</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButtonTriangle">
+       <property name="text">
+        <string>Triangle</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButtonSquare">
+       <property name="text">
+        <string>Square</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButtonHexagon">
+       <property name="text">
+        <string>Hexagon</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButtonCircle">
+       <property name="text">
+        <string>Circle</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>310</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Периметр: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelPerimetr">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>310</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>310</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Площадь: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelSurface">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>310</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>310</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Центр масс</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelCentre">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>310</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>481</x>
+      <y>9</y>
+      <width>141</width>
+      <height>58</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QRadioButton" name="radioButtonDraw">
+         <property name="text">
+          <string>Draw</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QRadioButton" name="radioButtonMove">
+         <property name="text">
+          <string>Move</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="1">
+      <widget class="QRadioButton" name="radioButtonResize">
+       <property name="text">
+        <string>Resize</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>581</width>
+     <width>631</width>
      <height>23</height>
     </rect>
    </property>

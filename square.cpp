@@ -6,6 +6,16 @@ Square::Square(QPointF point, QObject *parent)
 
 }
 
+qreal Square::perimetr()
+{
+    return 2 * M_PI * qAbs(startPoint().x() - endPoint().x());
+}
+
+qreal Square::surface()
+{
+    return M_PI * pow(qAbs(startPoint().x() - endPoint().x()), 2);
+}
+
 void Square::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {
     QPen pen(Qt::black, 2);

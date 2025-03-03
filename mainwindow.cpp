@@ -7,21 +7,28 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    timer = new QTimer(this);
-    connect(timer, &QTimer::timeout, this, &MainWindow::timerSlot);
+    timerResizeWindow = new QTimer(this);
+    connect(timerResizeWindow, &QTimer::timeout, this, &MainWindow::timerResizeSlot);
+    timerUpdateData = new QTimer(this);
+    connect(timerUpdateData, &QTimer::timeout, this, &MainWindow::timerUpdateDataSlot);
 
     scene = new PaintScene;
     ui->graphicsView->setScene(scene);
     ui->graphicsView->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     ui->graphicsView->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-    timer->start(100);
+    timerResizeWindow->start(100);
+    timerUpdateData->start(100);
 
-    connect(ui->buttonRect, &QPushButton::clicked, this, &MainWindow::buttonRectClick);
-    connect(ui->buttonRhomb, &QPushButton::clicked, this, &MainWindow::buttonRhombClick);
-    connect(ui->buttonTriangle, &QPushButton::clicked, this, &MainWindow::buttonTriangleClick);
-    connect(ui->buttonCircle, &QPushButton::clicked, this, &MainWindow::buttonCircleClick);
-    connect(ui->buttonSquare, &QPushButton::clicked, this, &MainWindow::buttonSquareClick);
-    connect(ui->buttonHexagon, &QPushButton::clicked, this, &MainWindow::buttonHexagonClick);
+    connect(ui->radioButtonRectangle, &QRadioButton::clicked, this, &MainWindow::buttonRectClick);
+    connect(ui->radioButtonRhomb, &QRadioButton::clicked, this, &MainWindow::buttonRhombClick);
+    connect(ui->radioButtonTriangle, &QRadioButton::clicked, this, &MainWindow::buttonTriangleClick);
+    connect(ui->radioButtonCircle, &QRadioButton::clicked, this, &MainWindow::buttonCircleClick);
+    connect(ui->radioButtonSquare, &QRadioButton::clicked, this, &MainWindow::buttonSquareClick);
+    connect(ui->radioButtonHexagon, &QRadioButton::clicked, this, &MainWindow::buttonHexagonClick);
+    connect(ui->radioButtonDraw, &QRadioButton::clicked, this, &MainWindow::buttonDrawClick);
+    connect(ui->radioButtonMove, &QRadioButton::clicked, this, &MainWindow::buttonMoveClick);
+    connect(ui->radioButtonResize, &QRadioButton::clicked, this, &MainWindow::buttonResizeClick);
+
 }
 
 MainWindow::~MainWindow()
@@ -29,10 +36,18 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::timerSlot()
+void MainWindow::timerResizeSlot()
 {
-    timer->stop();
+    timerResizeWindow->stop();
     scene->setSceneRect(0, 0, ui->graphicsView->width(), ui->graphicsView->height());
+}
+
+void MainWindow::timerUpdateDataSlot()
+{
+    scene->updateFigureData(perimetr, surface, center);
+    ui->labelPerimetr->setText(QString::number(perimetr, 'f', 2));
+    ui->labelSurface->setText(QString::number(surface, 'f', 2));
+    ui->labelCentre->setText(QString::number(center.x(), 'f', 2) + " " + QString::number(center.y(), 'f', 2));
 }
 
 void MainWindow::buttonRectClick()
@@ -63,6 +78,21 @@ void MainWindow::buttonSquareClick()
 void MainWindow::buttonHexagonClick()
 {
     scene->setTypeFigure(HexagonType);
+}
+
+void MainWindow::buttonDrawClick()
+{
+    scene->setMode(DrawMode);
+}
+
+void MainWindow::buttonMoveClick()
+{
+    scene->setMode(MoveMode);
+}
+
+void MainWindow::buttonResizeClick()
+{
+    scene->setMode(ResizeMode);
 }
 
 void MainWindow::resizeEvent(QResizeEvent *event)

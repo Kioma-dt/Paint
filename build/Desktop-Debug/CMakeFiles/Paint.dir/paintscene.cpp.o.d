@@ -321,7 +321,6 @@ CMakeFiles/Paint.dir/paintscene.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreevent.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qset.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qhash.h \
- /home/roma/Documents/QT/Paint/figure.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsItem \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsitem.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qvariant.h \
@@ -333,6 +332,11 @@ CMakeFiles/Paint.dir/paintscene.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qshareddata_impl.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qvarlengtharray.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpainterpath.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/QTransform \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QtMath \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qmath.h \
+ /home/roma/Documents/QT/Paint/figure.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QPointF \

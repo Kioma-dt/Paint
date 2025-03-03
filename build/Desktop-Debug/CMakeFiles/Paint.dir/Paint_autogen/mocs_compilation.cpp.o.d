@@ -344,13 +344,17 @@ CMakeFiles/Paint.dir/Paint_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontmetrics.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QPolygon \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsSceneMouseEvent \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicssceneevent.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreevent.h \
  /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/moc_paintscene.cpp \
  /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../paintscene.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsScene \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsscene.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsSceneMouseEvent \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicssceneevent.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreevent.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/QTransform \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QtMath \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qmath.h \
  /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../figure.h \
  /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../rect.h \
  /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../rhomb.h \

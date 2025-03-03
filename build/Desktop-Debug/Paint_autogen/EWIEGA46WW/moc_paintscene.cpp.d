@@ -292,6 +292,7 @@
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/QPointF \
+  /usr/include/x86_64-linux-gnu/qt6/QtCore/QtMath \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qanystringview.h \
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qarraydata.h \
@@ -378,6 +379,7 @@
   /usr/include/x86_64-linux-gnu/qt6/QtCore/qversiontagging.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QPainter \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/QPolygon \
+  /usr/include/x86_64-linux-gnu/qt6/QtGui/QTransform \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qbrush.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qcolor.h \
   /usr/include/x86_64-linux-gnu/qt6/QtGui/qfont.h \

@@ -5,6 +5,8 @@
 #include <QTimer>
 #include <QResizeEvent>
 #include <QPushButton>
+#include <QRadioButton>
+#include <QLabel>
 #include "paintscene.h"
 
 QT_BEGIN_NAMESPACE
@@ -22,17 +24,25 @@ public:
 
 private:
     Ui::MainWindow *ui;
-    QTimer *timer;
+    QTimer *timerResizeWindow;
+    QTimer *timerUpdateData;
     PaintScene *scene;
+    qreal perimetr = 0;
+    qreal surface = 0;
+    QPointF center = QPointF(0, 0);
 
 private slots:
-    void timerSlot();
+    void timerResizeSlot();
+    void timerUpdateDataSlot();
     void buttonRectClick();
     void buttonRhombClick();
     void buttonTriangleClick();
     void buttonCircleClick();
     void buttonSquareClick();
     void buttonHexagonClick();
+    void buttonDrawClick();
+    void buttonMoveClick();
+    void buttonResizeClick();
 
 private:
     void resizeEvent(QResizeEvent* event);

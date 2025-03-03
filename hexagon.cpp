@@ -6,6 +6,16 @@ Hexagon::Hexagon(QPointF point, QObject *parent)
 
 }
 
+qreal Hexagon::perimetr()
+{
+    return 2 * M_PI * qAbs(startPoint().x() - endPoint().x());
+}
+
+qreal Hexagon::surface()
+{
+    return M_PI * pow(qAbs(startPoint().x() - endPoint().x()), 2);
+}
+
 void Hexagon::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {
     QPen pen(Qt::black, 2);
