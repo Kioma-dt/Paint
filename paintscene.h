@@ -3,6 +3,9 @@
 
 #include <QGraphicsScene>
 #include <QGraphicsSceneMouseEvent>
+#include <QGraphicsItem>
+#include <QTransform>
+#include <QtMath>
 #include "figure.h"
 #include "rect.h"
 #include "rhomb.h"
@@ -12,6 +15,7 @@
 #include "hexagon.h"
 
 enum FigureTypes{RectType, RhombType, TriangleType, CircleType, SquareType, HexagonType};
+enum Modes{DrawMode, MoveMode, RotateMode, ResizeMode, SelectMode};
 
 class PaintScene : public QGraphicsScene
 {
@@ -24,10 +28,16 @@ public:
     explicit PaintScene(QObject *parent = 0);
     int typeFigure() const;
     void setTypeFigure(const int type);
+    void setMode(const Modes selected);
+    void updateFigureData(qreal& perimetr, qreal& surface, QPointF& center);
 
 private:
     int m_typeFigure;
     Figure *tempFigure;
+    bool moveMode = false;
+    QPointF startMovePoint;
+    qreal startAngle;
+    Modes mode = DrawMode;
 
 signals:
     void typeFigureChanged();
@@ -35,7 +45,7 @@ signals:
 private:
     void mousePressEvent(QGraphicsSceneMouseEvent *event);
     void mouseMoveEvent(QGraphicsSceneMouseEvent *event);
-
+    void mouseReleaseEvent(QGraphicsSceneMouseEvent &event);
 };
 
 #endif // PAINTSCENE_H

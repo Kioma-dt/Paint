@@ -8,6 +8,9 @@ class Hexagon : public Figure
 public:
     explicit Hexagon(QPointF point, QObject *parent = 0);
 
+    qreal perimetr();
+    qreal surface();
+
 private:
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override;
 };

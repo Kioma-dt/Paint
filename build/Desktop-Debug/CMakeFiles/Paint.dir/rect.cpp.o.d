@@ -337,4 +337,7 @@ CMakeFiles/Paint.dir/rect.cpp.o: /home/roma/Documents/QT/Paint/rect.cpp \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfont.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontmetrics.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QPolygon \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsSceneMouseEvent \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicssceneevent.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreevent.h

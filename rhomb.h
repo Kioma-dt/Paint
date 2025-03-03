@@ -8,6 +8,9 @@ class Rhomb : public Figure
 public:
     explicit Rhomb(QPointF point, QObject *parent = 0);
 
+    qreal perimetr();
+    qreal surface();
+
 private:
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override;
 };
