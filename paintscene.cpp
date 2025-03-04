@@ -129,6 +129,30 @@ void PaintScene::mousePressEvent(QGraphicsSceneMouseEvent *event)
             tempFigure = item;
             break;
         }
+        case PentagonType:
+        {
+            Pentagon *item = new Pentagon(event->scenePos());
+            tempFigure = item;
+            break;
+        }
+        case FiveStarType:
+        {
+            FiveStar *item = new FiveStar(event->scenePos());
+            tempFigure = item;
+            break;
+        }
+        case SixStarType:
+        {
+            SixStar *item = new SixStar(event->scenePos());
+            tempFigure = item;
+            break;
+        }
+        case EightStarType:
+        {
+            EightStar *item = new EightStar(event->scenePos());
+            tempFigure = item;
+            break;
+        }
         default:
         {
             Rect *item = new Rect(event->scenePos());

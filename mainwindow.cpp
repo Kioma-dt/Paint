@@ -25,6 +25,11 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->radioButtonCircle, &QRadioButton::clicked, this, &MainWindow::buttonCircleClick);
     connect(ui->radioButtonSquare, &QRadioButton::clicked, this, &MainWindow::buttonSquareClick);
     connect(ui->radioButtonHexagon, &QRadioButton::clicked, this, &MainWindow::buttonHexagonClick);
+    connect(ui->radioButtonPentagon, &QRadioButton::clicked, this, &MainWindow::buttonPentagonClick);
+    connect(ui->radioButtonFiveStar, &QRadioButton::clicked, this, &MainWindow::buttonFiveStarClick);
+    connect(ui->radioButtonSixStar, &QRadioButton::clicked, this, &MainWindow::buttonSixStarClick);
+    connect(ui->radioButtonEightStar, &QRadioButton::clicked, this, &MainWindow::buttonEightStarClick);
+
     connect(ui->radioButtonDraw, &QRadioButton::clicked, this, &MainWindow::buttonDrawClick);
     connect(ui->radioButtonMove, &QRadioButton::clicked, this, &MainWindow::buttonMoveClick);
     connect(ui->radioButtonResize, &QRadioButton::clicked, this, &MainWindow::buttonResizeClick);
@@ -47,7 +52,7 @@ void MainWindow::timerUpdateDataSlot()
     scene->updateFigureData(perimetr, surface, center);
     ui->labelPerimetr->setText(QString::number(perimetr, 'f', 2));
     ui->labelSurface->setText(QString::number(surface, 'f', 2));
-    ui->labelCentre->setText(QString::number(center.x(), 'f', 2) + " " + QString::number(center.y(), 'f', 2));
+    ui->labelCentre->setText(QString::number(center.x(), 'f', 0) + " " + QString::number(center.y(), 'f', 0));
 }
 
 void MainWindow::buttonRectClick()
@@ -80,6 +85,26 @@ void MainWindow::buttonHexagonClick()
     scene->setTypeFigure(HexagonType);
 }
 
+void MainWindow::buttonPentagonClick()
+{
+    scene->setTypeFigure(PentagonType);
+}
+
+void MainWindow::buttonFiveStarClick()
+{
+    scene->setTypeFigure(FiveStarType);
+}
+
+void MainWindow::buttonSixStarClick()
+{
+    scene->setTypeFigure(SixStarType);
+}
+
+void MainWindow::buttonEightStarClick()
+{
+    scene->setTypeFigure(EightStarType);
+}
+
 void MainWindow::buttonDrawClick()
 {
     scene->setMode(DrawMode);
@@ -100,5 +125,3 @@ void MainWindow::resizeEvent(QResizeEvent *event)
     scene->setSceneRect(0,0,ui->graphicsView->width(),ui->graphicsView->height());
     QMainWindow::resizeEvent(event);
 }
-
-

@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-16be1a59fdb8879fa310.json",
+					"jsonFile" : "directory-.-Debug-b7090d8cd06307f8f44f.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Paint::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Paint-Debug-bb7ac99edada7862a30c.json",
+					"jsonFile" : "target-Paint-Debug-c05056889f4c6197136a.json",
 					"name" : "Paint",
 					"projectIndex" : 0
 				},

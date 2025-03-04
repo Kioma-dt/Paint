@@ -31,6 +31,12 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         circle.h circle.cpp
         square.h square.cpp
         hexagon.h hexagon.cpp
+        polygon.h polygon.cpp
+        pentagon.h pentagon.cpp
+        star.h star.cpp
+        fivestar.h fivestar.cpp
+        sixstar.h sixstar.cpp
+        eightstar.h eightstar.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Paint APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

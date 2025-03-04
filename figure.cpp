@@ -5,7 +5,6 @@ Figure::Figure(QPointF point, QObject *parent)
 {
     this->setStartPoint(point);
     this->setEndPoint(point);
-    this->setTransformOriginPoint(boundingRect().center());
 
     connect(this, SIGNAL(pointChanged()), this, SLOT(updateBounds()));
 }
@@ -44,11 +43,6 @@ QRectF Figure::boundingRect() const
                   std::min(startPoint().y(), endPoint().y()) - 40,
                   (qAbs(startPoint().x() - endPoint().x())) + 100,
                   (qAbs(startPoint().y() - endPoint().y())) + 100);
-}
-
-void Figure::mouseMoveEvent(QGraphicsSceneMouseEvent *event)
-{
-
 }
 
 void Figure::updateBounds()

@@ -40,8 +40,6 @@ private:
 
     QRectF boundingRect() const override;
 
-    void mouseMoveEvent(QGraphicsSceneMouseEvent *event);
-
 public slots:
     void updateBounds();
 };

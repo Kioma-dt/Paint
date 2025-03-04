@@ -12,8 +12,9 @@ public:
     qreal perimetr();
     qreal surface();
 
-private:
+protected:
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override;
+    bool isSquare = false;
 };
 
 #endif // RECT_H

@@ -34,12 +34,18 @@ private:
 private slots:
     void timerResizeSlot();
     void timerUpdateDataSlot();
+
     void buttonRectClick();
     void buttonRhombClick();
     void buttonTriangleClick();
     void buttonCircleClick();
     void buttonSquareClick();
     void buttonHexagonClick();
+    void buttonPentagonClick();
+    void buttonFiveStarClick();
+    void buttonSixStarClick();
+    void buttonEightStarClick();
+
     void buttonDrawClick();
     void buttonMoveClick();
     void buttonResizeClick();

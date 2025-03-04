@@ -212,9 +212,21 @@
 			null
 		],
 		[
+			"/home/roma/Documents/QT/Paint/eightstar.h",
+			"MU",
+			"EWIEGA46WW/moc_eightstar.cpp",
+			null
+		],
+		[
 			"/home/roma/Documents/QT/Paint/figure.h",
 			"MU",
 			"EWIEGA46WW/moc_figure.cpp",
+			null
+		],
+		[
+			"/home/roma/Documents/QT/Paint/fivestar.h",
+			"MU",
+			"EWIEGA46WW/moc_fivestar.cpp",
 			null
 		],
 		[
@@ -236,6 +248,18 @@
 			null
 		],
 		[
+			"/home/roma/Documents/QT/Paint/pentagon.h",
+			"MU",
+			"EWIEGA46WW/moc_pentagon.cpp",
+			null
+		],
+		[
+			"/home/roma/Documents/QT/Paint/polygon.h",
+			"MU",
+			"EWIEGA46WW/moc_polygon.cpp",
+			null
+		],
+		[
 			"/home/roma/Documents/QT/Paint/rect.h",
 			"MU",
 			"EWIEGA46WW/moc_rect.cpp",
@@ -248,9 +272,21 @@
 			null
 		],
 		[
+			"/home/roma/Documents/QT/Paint/sixstar.h",
+			"MU",
+			"EWIEGA46WW/moc_sixstar.cpp",
+			null
+		],
+		[
 			"/home/roma/Documents/QT/Paint/square.h",
 			"MU",
 			"EWIEGA46WW/moc_square.cpp",
+			null
+		],
+		[
+			"/home/roma/Documents/QT/Paint/star.h",
+			"MU",
+			"EWIEGA46WW/moc_star.cpp",
 			null
 		],
 		[
@@ -319,14 +355,20 @@
 	"SOURCES" : 
 	[
 		[ "/home/roma/Documents/QT/Paint/circle.cpp", "MU", null ],
+		[ "/home/roma/Documents/QT/Paint/eightstar.cpp", "MU", null ],
 		[ "/home/roma/Documents/QT/Paint/figure.cpp", "MU", null ],
+		[ "/home/roma/Documents/QT/Paint/fivestar.cpp", "MU", null ],
 		[ "/home/roma/Documents/QT/Paint/hexagon.cpp", "MU", null ],
 		[ "/home/roma/Documents/QT/Paint/main.cpp", "MU", null ],
 		[ "/home/roma/Documents/QT/Paint/mainwindow.cpp", "MU", null ],
 		[ "/home/roma/Documents/QT/Paint/paintscene.cpp", "MU", null ],
+		[ "/home/roma/Documents/QT/Paint/pentagon.cpp", "MU", null ],
+		[ "/home/roma/Documents/QT/Paint/polygon.cpp", "MU", null ],
 		[ "/home/roma/Documents/QT/Paint/rect.cpp", "MU", null ],
 		[ "/home/roma/Documents/QT/Paint/rhomb.cpp", "MU", null ],
+		[ "/home/roma/Documents/QT/Paint/sixstar.cpp", "MU", null ],
 		[ "/home/roma/Documents/QT/Paint/square.cpp", "MU", null ],
+		[ "/home/roma/Documents/QT/Paint/star.cpp", "MU", null ],
 		[ "/home/roma/Documents/QT/Paint/triangle.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

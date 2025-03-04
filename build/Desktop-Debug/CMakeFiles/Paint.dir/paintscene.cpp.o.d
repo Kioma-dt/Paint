@@ -348,9 +348,15 @@ CMakeFiles/Paint.dir/paintscene.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontmetrics.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QPolygon \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h \
- /home/roma/Documents/QT/Paint/rect.h \
  /home/roma/Documents/QT/Paint/rhomb.h \
+ /home/roma/Documents/QT/Paint/polygon.h \
  /home/roma/Documents/QT/Paint/triangle.h \
  /home/roma/Documents/QT/Paint/circle.h \
  /home/roma/Documents/QT/Paint/square.h \
- /home/roma/Documents/QT/Paint/hexagon.h
+ /home/roma/Documents/QT/Paint/rect.h \
+ /home/roma/Documents/QT/Paint/hexagon.h \
+ /home/roma/Documents/QT/Paint/pentagon.h \
+ /home/roma/Documents/QT/Paint/fivestar.h \
+ /home/roma/Documents/QT/Paint/star.h \
+ /home/roma/Documents/QT/Paint/sixstar.h \
+ /home/roma/Documents/QT/Paint/eightstar.h

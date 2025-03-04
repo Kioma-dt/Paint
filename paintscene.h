@@ -7,15 +7,19 @@
 #include <QTransform>
 #include <QtMath>
 #include "figure.h"
-#include "rect.h"
 #include "rhomb.h"
 #include "triangle.h"
 #include "circle.h"
 #include "square.h"
 #include "hexagon.h"
+#include "pentagon.h"
+#include "fivestar.h"
+#include "sixstar.h"
+#include "eightstar.h"
 
-enum FigureTypes{RectType, RhombType, TriangleType, CircleType, SquareType, HexagonType};
-enum Modes{DrawMode, MoveMode, RotateMode, ResizeMode, SelectMode};
+
+enum FigureTypes{RectType, RhombType, TriangleType, CircleType, SquareType, HexagonType, PentagonType, FiveStarType, SixStarType, EightStarType};
+enum Modes{DrawMode, MoveMode, RotateMode, ResizeMode};
 
 class PaintScene : public QGraphicsScene
 {
@@ -33,7 +37,7 @@ public:
 
 private:
     int m_typeFigure;
-    Figure *tempFigure;
+    Figure *tempFigure = nullptr;
     bool moveMode = false;
     QPointF startMovePoint;
     qreal startAngle;

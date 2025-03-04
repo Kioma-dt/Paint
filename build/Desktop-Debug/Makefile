@@ -248,6 +248,30 @@ circle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/circle.cpp.s
 .PHONY : circle.cpp.s
 
+eightstar.o: eightstar.cpp.o
+.PHONY : eightstar.o
+
+# target to build an object file
+eightstar.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/eightstar.cpp.o
+.PHONY : eightstar.cpp.o
+
+eightstar.i: eightstar.cpp.i
+.PHONY : eightstar.i
+
+# target to preprocess a source file
+eightstar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/eightstar.cpp.i
+.PHONY : eightstar.cpp.i
+
+eightstar.s: eightstar.cpp.s
+.PHONY : eightstar.s
+
+# target to generate assembly for a file
+eightstar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/eightstar.cpp.s
+.PHONY : eightstar.cpp.s
+
 figure.o: figure.cpp.o
 .PHONY : figure.o
 
@@ -271,6 +295,30 @@ figure.s: figure.cpp.s
 figure.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/figure.cpp.s
 .PHONY : figure.cpp.s
+
+fivestar.o: fivestar.cpp.o
+.PHONY : fivestar.o
+
+# target to build an object file
+fivestar.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/fivestar.cpp.o
+.PHONY : fivestar.cpp.o
+
+fivestar.i: fivestar.cpp.i
+.PHONY : fivestar.i
+
+# target to preprocess a source file
+fivestar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/fivestar.cpp.i
+.PHONY : fivestar.cpp.i
+
+fivestar.s: fivestar.cpp.s
+.PHONY : fivestar.s
+
+# target to generate assembly for a file
+fivestar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/fivestar.cpp.s
+.PHONY : fivestar.cpp.s
 
 hexagon.o: hexagon.cpp.o
 .PHONY : hexagon.o
@@ -368,6 +416,54 @@ paintscene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/paintscene.cpp.s
 .PHONY : paintscene.cpp.s
 
+pentagon.o: pentagon.cpp.o
+.PHONY : pentagon.o
+
+# target to build an object file
+pentagon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/pentagon.cpp.o
+.PHONY : pentagon.cpp.o
+
+pentagon.i: pentagon.cpp.i
+.PHONY : pentagon.i
+
+# target to preprocess a source file
+pentagon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/pentagon.cpp.i
+.PHONY : pentagon.cpp.i
+
+pentagon.s: pentagon.cpp.s
+.PHONY : pentagon.s
+
+# target to generate assembly for a file
+pentagon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/pentagon.cpp.s
+.PHONY : pentagon.cpp.s
+
+polygon.o: polygon.cpp.o
+.PHONY : polygon.o
+
+# target to build an object file
+polygon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/polygon.cpp.o
+.PHONY : polygon.cpp.o
+
+polygon.i: polygon.cpp.i
+.PHONY : polygon.i
+
+# target to preprocess a source file
+polygon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/polygon.cpp.i
+.PHONY : polygon.cpp.i
+
+polygon.s: polygon.cpp.s
+.PHONY : polygon.s
+
+# target to generate assembly for a file
+polygon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/polygon.cpp.s
+.PHONY : polygon.cpp.s
+
 rect.o: rect.cpp.o
 .PHONY : rect.o
 
@@ -416,6 +512,30 @@ rhomb.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/rhomb.cpp.s
 .PHONY : rhomb.cpp.s
 
+sixstar.o: sixstar.cpp.o
+.PHONY : sixstar.o
+
+# target to build an object file
+sixstar.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/sixstar.cpp.o
+.PHONY : sixstar.cpp.o
+
+sixstar.i: sixstar.cpp.i
+.PHONY : sixstar.i
+
+# target to preprocess a source file
+sixstar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/sixstar.cpp.i
+.PHONY : sixstar.cpp.i
+
+sixstar.s: sixstar.cpp.s
+.PHONY : sixstar.s
+
+# target to generate assembly for a file
+sixstar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/sixstar.cpp.s
+.PHONY : sixstar.cpp.s
+
 square.o: square.cpp.o
 .PHONY : square.o
 
@@ -439,6 +559,30 @@ square.s: square.cpp.s
 square.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/square.cpp.s
 .PHONY : square.cpp.s
+
+star.o: star.cpp.o
+.PHONY : star.o
+
+# target to build an object file
+star.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/star.cpp.o
+.PHONY : star.cpp.o
+
+star.i: star.cpp.i
+.PHONY : star.i
+
+# target to preprocess a source file
+star.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/star.cpp.i
+.PHONY : star.cpp.i
+
+star.s: star.cpp.s
+.PHONY : star.s
+
+# target to generate assembly for a file
+star.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Paint.dir/build.make CMakeFiles/Paint.dir/star.cpp.s
+.PHONY : star.cpp.s
 
 triangle.o: triangle.cpp.o
 .PHONY : triangle.o
@@ -485,9 +629,15 @@ help:
 	@echo "... circle.o"
 	@echo "... circle.i"
 	@echo "... circle.s"
+	@echo "... eightstar.o"
+	@echo "... eightstar.i"
+	@echo "... eightstar.s"
 	@echo "... figure.o"
 	@echo "... figure.i"
 	@echo "... figure.s"
+	@echo "... fivestar.o"
+	@echo "... fivestar.i"
+	@echo "... fivestar.s"
 	@echo "... hexagon.o"
 	@echo "... hexagon.i"
 	@echo "... hexagon.s"
@@ -500,15 +650,27 @@ help:
 	@echo "... paintscene.o"
 	@echo "... paintscene.i"
 	@echo "... paintscene.s"
+	@echo "... pentagon.o"
+	@echo "... pentagon.i"
+	@echo "... pentagon.s"
+	@echo "... polygon.o"
+	@echo "... polygon.i"
+	@echo "... polygon.s"
 	@echo "... rect.o"
 	@echo "... rect.i"
 	@echo "... rect.s"
 	@echo "... rhomb.o"
 	@echo "... rhomb.i"
 	@echo "... rhomb.s"
+	@echo "... sixstar.o"
+	@echo "... sixstar.i"
+	@echo "... sixstar.s"
 	@echo "... square.o"
 	@echo "... square.i"
 	@echo "... square.s"
+	@echo "... star.o"
+	@echo "... star.i"
+	@echo "... star.s"
 	@echo "... triangle.o"
 	@echo "... triangle.i"
 	@echo "... triangle.s"
