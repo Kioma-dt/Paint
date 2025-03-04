@@ -1,11 +1,17 @@
 /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/moc_paintscene.cpp: /home/roma/Documents/QT/Paint/paintscene.h \
   /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/moc_predefs.h \
   /home/roma/Documents/QT/Paint/circle.h \
+  /home/roma/Documents/QT/Paint/eightstar.h \
   /home/roma/Documents/QT/Paint/figure.h \
+  /home/roma/Documents/QT/Paint/fivestar.h \
   /home/roma/Documents/QT/Paint/hexagon.h \
+  /home/roma/Documents/QT/Paint/pentagon.h \
+  /home/roma/Documents/QT/Paint/polygon.h \
   /home/roma/Documents/QT/Paint/rect.h \
   /home/roma/Documents/QT/Paint/rhomb.h \
+  /home/roma/Documents/QT/Paint/sixstar.h \
   /home/roma/Documents/QT/Paint/square.h \
+  /home/roma/Documents/QT/Paint/star.h \
   /home/roma/Documents/QT/Paint/triangle.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \

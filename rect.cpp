@@ -8,12 +8,18 @@ Rect::Rect(QPointF point, QObject *parent)
 
 qreal Rect::perimetr()
 {
-    return 2 * M_PI * qAbs(startPoint().x() - endPoint().x());
+    int width = qAbs(startPoint().x() - endPoint().x());
+    int height = qAbs(startPoint().y() - endPoint().y());
+
+    return 2 * (width + height);
 }
 
 qreal Rect::surface()
 {
-    return M_PI * pow(qAbs(startPoint().x() - endPoint().x()), 2);
+    int width = qAbs(startPoint().x() - endPoint().x());
+    int height = qAbs(startPoint().y() - endPoint().y());
+
+    return width * height;
 }
 
 void Rect::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
@@ -25,6 +31,11 @@ void Rect::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWid
     int top = std::min(startPoint().y(), endPoint().y());
     int width = qAbs(startPoint().x() - endPoint().x());
     int height = qAbs(startPoint().y() - endPoint().y());
+
+    if (isSquare)
+    {
+        height = width;
+    }
 
     painter->drawRect(left,
                        top,

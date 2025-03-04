@@ -356,11 +356,17 @@ CMakeFiles/Paint.dir/Paint_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QtMath \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmath.h \
  /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../figure.h \
- /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../rect.h \
  /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../rhomb.h \
+ /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../polygon.h \
  /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../triangle.h \
  /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../circle.h \
  /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../square.h \
+ /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../rect.h \
  /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../hexagon.h \
+ /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../pentagon.h \
+ /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../fivestar.h \
+ /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../star.h \
+ /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../sixstar.h \
+ /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../eightstar.h \
  /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/moc_rect.cpp \
  /home/roma/Documents/QT/Paint/build/Desktop-Debug/Paint_autogen/EWIEGA46WW/../../../../rect.h

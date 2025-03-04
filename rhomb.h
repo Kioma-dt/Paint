@@ -1,9 +1,9 @@
 #ifndef RHOMB_H
 #define RHOMB_H
 
-#include "figure.h"
+#include "polygon.h"
 
-class Rhomb : public Figure
+class Rhomb : public Polygon
 {
 public:
     explicit Rhomb(QPointF point, QObject *parent = 0);
@@ -11,8 +11,6 @@ public:
     qreal perimetr();
     qreal surface();
 
-private:
-    void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override;
 };
 
 #endif // RHOMB_H

@@ -32,18 +32,22 @@ public:
     QGroupBox *verticalGroupBox;
     QVBoxLayout *verticalLayout;
     QRadioButton *radioButtonRectangle;
-    QRadioButton *radioButtonRhomb;
-    QRadioButton *radioButtonTriangle;
     QRadioButton *radioButtonSquare;
+    QRadioButton *radioButtonTriangle;
+    QRadioButton *radioButtonRhomb;
+    QRadioButton *radioButtonPentagon;
     QRadioButton *radioButtonHexagon;
     QRadioButton *radioButtonCircle;
+    QRadioButton *radioButtonFiveStar;
+    QRadioButton *radioButtonSixStar;
+    QRadioButton *radioButtonEightStar;
     QLabel *label;
     QLabel *labelPerimetr;
     QLabel *label_3;
     QLabel *labelSurface;
     QLabel *label_5;
     QLabel *labelCentre;
-    QWidget *widget;
+    QWidget *layoutWidget;
     QGridLayout *gridLayout_2;
     QGridLayout *gridLayout;
     QRadioButton *radioButtonDraw;
@@ -56,15 +60,15 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(631, 429);
+        MainWindow->resize(747, 475);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         graphicsView = new QGraphicsView(centralwidget);
         graphicsView->setObjectName("graphicsView");
-        graphicsView->setGeometry(QRect(9, 9, 461, 281));
+        graphicsView->setGeometry(QRect(10, 10, 461, 291));
         verticalGroupBox = new QGroupBox(centralwidget);
         verticalGroupBox->setObjectName("verticalGroupBox");
-        verticalGroupBox->setGeometry(QRect(490, 80, 117, 201));
+        verticalGroupBox->setGeometry(QRect(490, 80, 141, 221));
         verticalGroupBox->setAutoFillBackground(false);
         verticalLayout = new QVBoxLayout(verticalGroupBox);
         verticalLayout->setObjectName("verticalLayout");
@@ -74,20 +78,25 @@ public:
 
         verticalLayout->addWidget(radioButtonRectangle);
 
-        radioButtonRhomb = new QRadioButton(verticalGroupBox);
-        radioButtonRhomb->setObjectName("radioButtonRhomb");
+        radioButtonSquare = new QRadioButton(verticalGroupBox);
+        radioButtonSquare->setObjectName("radioButtonSquare");
 
-        verticalLayout->addWidget(radioButtonRhomb);
+        verticalLayout->addWidget(radioButtonSquare);
 
         radioButtonTriangle = new QRadioButton(verticalGroupBox);
         radioButtonTriangle->setObjectName("radioButtonTriangle");
 
         verticalLayout->addWidget(radioButtonTriangle);
 
-        radioButtonSquare = new QRadioButton(verticalGroupBox);
-        radioButtonSquare->setObjectName("radioButtonSquare");
+        radioButtonRhomb = new QRadioButton(verticalGroupBox);
+        radioButtonRhomb->setObjectName("radioButtonRhomb");
 
-        verticalLayout->addWidget(radioButtonSquare);
+        verticalLayout->addWidget(radioButtonRhomb);
+
+        radioButtonPentagon = new QRadioButton(verticalGroupBox);
+        radioButtonPentagon->setObjectName("radioButtonPentagon");
+
+        verticalLayout->addWidget(radioButtonPentagon);
 
         radioButtonHexagon = new QRadioButton(verticalGroupBox);
         radioButtonHexagon->setObjectName("radioButtonHexagon");
@@ -98,6 +107,21 @@ public:
         radioButtonCircle->setObjectName("radioButtonCircle");
 
         verticalLayout->addWidget(radioButtonCircle);
+
+        radioButtonFiveStar = new QRadioButton(verticalGroupBox);
+        radioButtonFiveStar->setObjectName("radioButtonFiveStar");
+
+        verticalLayout->addWidget(radioButtonFiveStar);
+
+        radioButtonSixStar = new QRadioButton(verticalGroupBox);
+        radioButtonSixStar->setObjectName("radioButtonSixStar");
+
+        verticalLayout->addWidget(radioButtonSixStar);
+
+        radioButtonEightStar = new QRadioButton(verticalGroupBox);
+        radioButtonEightStar->setObjectName("radioButtonEightStar");
+
+        verticalLayout->addWidget(radioButtonEightStar);
 
         label = new QLabel(centralwidget);
         label->setObjectName("label");
@@ -117,21 +141,21 @@ public:
         labelCentre = new QLabel(centralwidget);
         labelCentre->setObjectName("labelCentre");
         labelCentre->setGeometry(QRect(490, 310, 81, 31));
-        widget = new QWidget(centralwidget);
-        widget->setObjectName("widget");
-        widget->setGeometry(QRect(481, 9, 141, 58));
-        gridLayout_2 = new QGridLayout(widget);
+        layoutWidget = new QWidget(centralwidget);
+        layoutWidget->setObjectName("layoutWidget");
+        layoutWidget->setGeometry(QRect(481, 9, 141, 58));
+        gridLayout_2 = new QGridLayout(layoutWidget);
         gridLayout_2->setObjectName("gridLayout_2");
         gridLayout_2->setContentsMargins(0, 0, 0, 0);
         gridLayout = new QGridLayout();
         gridLayout->setObjectName("gridLayout");
-        radioButtonDraw = new QRadioButton(widget);
+        radioButtonDraw = new QRadioButton(layoutWidget);
         radioButtonDraw->setObjectName("radioButtonDraw");
         radioButtonDraw->setChecked(true);
 
         gridLayout->addWidget(radioButtonDraw, 0, 0, 1, 1);
 
-        radioButtonMove = new QRadioButton(widget);
+        radioButtonMove = new QRadioButton(layoutWidget);
         radioButtonMove->setObjectName("radioButtonMove");
 
         gridLayout->addWidget(radioButtonMove, 1, 0, 1, 1);
@@ -139,7 +163,7 @@ public:
 
         gridLayout_2->addLayout(gridLayout, 0, 0, 1, 1);
 
-        radioButtonResize = new QRadioButton(widget);
+        radioButtonResize = new QRadioButton(layoutWidget);
         radioButtonResize->setObjectName("radioButtonResize");
 
         gridLayout_2->addWidget(radioButtonResize, 0, 1, 1, 1);
@@ -147,7 +171,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 631, 23));
+        menubar->setGeometry(QRect(0, 0, 747, 23));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
@@ -162,11 +186,15 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         radioButtonRectangle->setText(QCoreApplication::translate("MainWindow", "Rectangle", nullptr));
-        radioButtonRhomb->setText(QCoreApplication::translate("MainWindow", "Rhomb", nullptr));
-        radioButtonTriangle->setText(QCoreApplication::translate("MainWindow", "Triangle", nullptr));
         radioButtonSquare->setText(QCoreApplication::translate("MainWindow", "Square", nullptr));
+        radioButtonTriangle->setText(QCoreApplication::translate("MainWindow", "Triangle", nullptr));
+        radioButtonRhomb->setText(QCoreApplication::translate("MainWindow", "Rhomb", nullptr));
+        radioButtonPentagon->setText(QCoreApplication::translate("MainWindow", "Pentagon", nullptr));
         radioButtonHexagon->setText(QCoreApplication::translate("MainWindow", "Hexagon", nullptr));
         radioButtonCircle->setText(QCoreApplication::translate("MainWindow", "Circle", nullptr));
+        radioButtonFiveStar->setText(QCoreApplication::translate("MainWindow", "5-point Star", nullptr));
+        radioButtonSixStar->setText(QCoreApplication::translate("MainWindow", "6-point Star", nullptr));
+        radioButtonEightStar->setText(QCoreApplication::translate("MainWindow", "8-point Star", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "\320\237\320\265\321\200\320\270\320\274\320\265\321\202\321\200: ", nullptr));
         labelPerimetr->setText(QCoreApplication::translate("MainWindow", "TextLabel", nullptr));
         label_3->setText(QCoreApplication::translate("MainWindow", "\320\237\320\273\320\276\321\211\320\260\320\264\321\214: ", nullptr));

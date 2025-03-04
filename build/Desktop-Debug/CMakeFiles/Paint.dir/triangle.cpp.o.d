@@ -1,6 +1,7 @@
 CMakeFiles/Paint.dir/triangle.cpp.o: \
  /home/roma/Documents/QT/Paint/triangle.cpp /usr/include/stdc-predef.h \
  /home/roma/Documents/QT/Paint/triangle.h \
+ /home/roma/Documents/QT/Paint/polygon.h \
  /home/roma/Documents/QT/Paint/figure.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsItem \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsitem.h \
