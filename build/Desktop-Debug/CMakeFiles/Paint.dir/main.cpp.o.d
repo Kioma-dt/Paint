@@ -1,7 +1,7 @@
 CMakeFiles/Paint.dir/main.cpp.o: /home/roma/Documents/QT/Paint/main.cpp \
  /usr/include/stdc-predef.h /home/roma/Documents/QT/Paint/mainwindow.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsglobal.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiglobal.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qglobal.h \
@@ -137,6 +137,7 @@ CMakeFiles/Paint.dir/main.cpp.o: /home/roma/Documents/QT/Paint/main.cpp \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtguiexports.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgets-config.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtwidgetsexports.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qwindowdefs.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobjectdefs.h \
@@ -334,16 +335,22 @@ CMakeFiles/Paint.dir/main.cpp.o: /home/roma/Documents/QT/Paint/main.cpp \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qsizepolicy.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qcursor.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qbitmap.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QMainWindow \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qtabwidget.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qtimer.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qbasictimer.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QPushButton \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qpushbutton.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractbutton.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QRadioButton \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qradiobutton.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QResizeEvent \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qevent.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreevent.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qiodevice.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qpointer.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qurl.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qeventpoint.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvector2d.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qvectornd.h \
@@ -362,49 +369,42 @@ CMakeFiles/Paint.dir/main.cpp.o: /home/roma/Documents/QT/Paint/main.cpp \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QTransform \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtransform.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qnativeinterface.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QPushButton \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qpushbutton.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qabstractbutton.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QRadioButton \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qradiobutton.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QLabel \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qlabel.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qframe.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpicture.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextdocument.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QTimer \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qtimer.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qbasictimer.h \
  /home/roma/Documents/QT/Paint/paintscene.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsItem \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsitem.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpainterpath.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsScene \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsscene.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpen.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsSceneMouseEvent \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicssceneevent.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsItem \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicsitem.h \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpainterpath.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QTransform \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QtMath \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qmath.h \
+ /home/roma/Documents/QT/Paint/circle.h \
  /home/roma/Documents/QT/Paint/figure.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/QPointF \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QPainter \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpainter.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QPointF \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QPolygon \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h \
- /home/roma/Documents/QT/Paint/rhomb.h \
+ /home/roma/Documents/QT/Paint/eightstar.h \
+ /home/roma/Documents/QT/Paint/star.h \
+ /home/roma/Documents/QT/Paint/fivestar.h \
+ /home/roma/Documents/QT/Paint/hexagon.h \
  /home/roma/Documents/QT/Paint/polygon.h \
- /home/roma/Documents/QT/Paint/triangle.h \
- /home/roma/Documents/QT/Paint/circle.h \
+ /home/roma/Documents/QT/Paint/pentagon.h \
+ /home/roma/Documents/QT/Paint/rhomb.h \
+ /home/roma/Documents/QT/Paint/sixstar.h \
  /home/roma/Documents/QT/Paint/square.h \
  /home/roma/Documents/QT/Paint/rect.h \
- /home/roma/Documents/QT/Paint/hexagon.h \
- /home/roma/Documents/QT/Paint/pentagon.h \
- /home/roma/Documents/QT/Paint/fivestar.h \
- /home/roma/Documents/QT/Paint/star.h \
- /home/roma/Documents/QT/Paint/sixstar.h \
- /home/roma/Documents/QT/Paint/eightstar.h \
+ /home/roma/Documents/QT/Paint/triangle.h \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QApplication \
  /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qapplication.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreapplication.h \

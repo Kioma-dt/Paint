@@ -326,10 +326,11 @@ CMakeFiles/Paint.dir/triangle.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qrgba64.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qimage.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpixelformat.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsSceneMouseEvent \
+ /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicssceneevent.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreevent.h \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt6/QtCore/qobject.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/QPointF \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QPainter \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qpainter.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qtextoption.h \
@@ -338,8 +339,7 @@ CMakeFiles/Paint.dir/triangle.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontinfo.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfont.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/qfontmetrics.h \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/QPointF \
+ /usr/include/x86_64-linux-gnu/qt6/QtCore/qpoint.h \
  /usr/include/x86_64-linux-gnu/qt6/QtGui/QPolygon \
- /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/QGraphicsSceneMouseEvent \
- /usr/include/x86_64-linux-gnu/qt6/QtWidgets/qgraphicssceneevent.h \
- /usr/include/x86_64-linux-gnu/qt6/QtCore/qcoreevent.h
+ /usr/include/x86_64-linux-gnu/qt6/QtGui/qpolygon.h

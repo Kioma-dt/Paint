@@ -225,7 +225,7 @@ public:
 
 };
 
-namespace Ui {
+namespace ui {
     class MainWindow: public Ui_MainWindow {};
 } // namespace Ui
 

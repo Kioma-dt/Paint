@@ -3,13 +3,12 @@
 
 #include "rect.h"
 
-class Square : public Rect
-{
-public:
-    explicit Square(QPointF point, QObject *parent = 0);
+class Square : public Rect {
+   public:
+    explicit Square(QPointF point, QObject* parent = nullptr);
 
-    qreal perimetr();
-    qreal surface();
+    qreal perimetr() override;
+    qreal surface() override;
 };
 
-#endif // SQUARE_H
+#endif	// SQUARE_H

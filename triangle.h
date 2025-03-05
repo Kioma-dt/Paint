@@ -3,13 +3,12 @@
 
 #include "polygon.h"
 
-class Triangle : public Polygon
-{
-public:
-    explicit Triangle(QPointF point, QObject *parent = 0);
+class Triangle : public Polygon {
+   public:
+    explicit Triangle(QPointF point, QObject* parent = nullptr);
 
-    qreal perimetr();
-    qreal surface();
+    qreal perimetr() override;
+    qreal surface() override;
 };
 
-#endif // TRIANGLE_H
+#endif	// TRIANGLE_H

@@ -3,12 +3,11 @@
 
 #include "star.h"
 
-class EightStar : public Star
-{
-public:
-    explicit EightStar(QPointF point, QObject *parent = 0);
+class EightStar : public Star {
+   public:
+    explicit EightStar(QPointF point, QObject* parent = nullptr);
 
-    qreal perimetr();
-    qreal surface();
+    qreal perimetr() override;
+    qreal surface() override;
 };
-#endif // EIGHTSTAR_H
+#endif	// EIGHTSTAR_H
