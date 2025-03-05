@@ -1,55 +1,63 @@
 #ifndef PAINTSCENE_H
 #define PAINTSCENE_H
 
+#include <QGraphicsItem>
 #include <QGraphicsScene>
 #include <QGraphicsSceneMouseEvent>
-#include <QGraphicsItem>
 #include <QTransform>
 #include <QtMath>
-#include "figure.h"
-#include "rhomb.h"
-#include "triangle.h"
 #include "circle.h"
-#include "square.h"
+#include "eightstar.h"
+#include "figure.h"
+#include "fivestar.h"
 #include "hexagon.h"
 #include "pentagon.h"
-#include "fivestar.h"
+#include "rhomb.h"
 #include "sixstar.h"
-#include "eightstar.h"
+#include "square.h"
+#include "triangle.h"
 
 
-enum FigureTypes{RectType, RhombType, TriangleType, CircleType, SquareType, HexagonType, PentagonType, FiveStarType, SixStarType, EightStarType};
-enum Modes{DrawMode, MoveMode, RotateMode, ResizeMode};
+enum FigureTypes {
+    kRectType,
+    kRhombType,
+    kTriangleType,
+    kCircleType,
+    kSquareType,
+    kHexagonType,
+    kPentagonType,
+    kFiveStarType,
+    kSixStarType,
+    kEightStarType
+};
+enum Modes { kDrawMode, kMoveMode, kResizeMode };
 
-class PaintScene : public QGraphicsScene
-{
+class PaintScene : public QGraphicsScene {
     Q_OBJECT
 
-    Q_PROPERTY(int typeFigure
-                   READ typeFigure WRITE setTypeFigure
-                       NOTIFY typeFigureChanged)
-public:
-    explicit PaintScene(QObject *parent = 0);
+    Q_PROPERTY(int typeFigure READ typeFigure WRITE setTypeFigure NOTIFY
+                   typeFigureChanged)
+   public:
+    explicit PaintScene(QObject* parent = nullptr);
     int typeFigure() const;
     void setTypeFigure(const int type);
     void setMode(const Modes selected);
     void updateFigureData(qreal& perimetr, qreal& surface, QPointF& center);
 
-private:
-    int m_typeFigure;
-    Figure *tempFigure = nullptr;
-    bool moveMode = false;
-    QPointF startMovePoint;
-    qreal startAngle;
-    Modes mode = DrawMode;
+   private:
+    int m_typeFigure_;
+    Figure* tempFigure_ = nullptr;
+    bool moveMode_ = false;
+    QPointF startMovePoint_;
+    qreal startAngle_;
+    Modes mode_ = kDrawMode;
 
-signals:
+   signals:
     void typeFigureChanged();
 
-private:
-    void mousePressEvent(QGraphicsSceneMouseEvent *event);
-    void mouseMoveEvent(QGraphicsSceneMouseEvent *event);
-    void mouseReleaseEvent(QGraphicsSceneMouseEvent &event);
+   private:
+    void mousePressEvent(QGraphicsSceneMouseEvent* event);
+    void mouseMoveEvent(QGraphicsSceneMouseEvent* event);
 };
 
-#endif // PAINTSCENE_H
+#endif	// PAINTSCENE_H

@@ -1,29 +1,25 @@
 #include "rect.h"
 
-Rect::Rect(QPointF point, QObject *parent)
-    :Figure(point, parent)
-{
-
+Rect::Rect(QPointF point, QObject* parent) : Figure(point, parent) {
+    parent = nullptr;
 }
 
-qreal Rect::perimetr()
-{
-    int width = qAbs(startPoint().x() - endPoint().x());
-    int height = qAbs(startPoint().y() - endPoint().y());
+qreal Rect::perimetr() {
+    qreal width = qAbs(startPoint().x() - endPoint().x());
+    qreal height = qAbs(startPoint().y() - endPoint().y());
 
     return 2 * (width + height);
 }
 
-qreal Rect::surface()
-{
-    int width = qAbs(startPoint().x() - endPoint().x());
-    int height = qAbs(startPoint().y() - endPoint().y());
+qreal Rect::surface() {
+    qreal width = qAbs(startPoint().x() - endPoint().x());
+    qreal height = qAbs(startPoint().y() - endPoint().y());
 
     return width * height;
 }
 
-void Rect::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
-{
+void Rect::paint(QPainter* painter, const QStyleOptionGraphicsItem* option,
+                 QWidget* widget) {
     QPen pen(Qt::black, 2);
     painter->setPen(pen);
 
@@ -32,13 +28,10 @@ void Rect::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWid
     int width = qAbs(startPoint().x() - endPoint().x());
     int height = qAbs(startPoint().y() - endPoint().y());
 
-    if (isSquare)
-    {
+
+    if (isSquare_) {
         height = width;
     }
 
-    painter->drawRect(left,
-                       top,
-                       width,
-                       height);
+    painter->drawRect(left, top, width, height);
 }

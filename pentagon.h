@@ -3,13 +3,12 @@
 
 #include "polygon.h"
 
-class Pentagon : public Polygon
-{
-public:
-    explicit Pentagon(QPointF point, QObject *parent = 0);
+class Pentagon : public Polygon {
+   public:
+    explicit Pentagon(QPointF point, QObject* parent = nullptr);
 
-    qreal perimetr();
-    qreal surface();
+    qreal perimetr() override;
+    qreal surface() override;
 };
 
-#endif // PENTAGON_H
+#endif	// PENTAGON_H

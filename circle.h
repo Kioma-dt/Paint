@@ -3,16 +3,16 @@
 
 #include "figure.h"
 
-class Circle : public Figure
-{
-public:
-    explicit Circle(QPointF point, QObject *parent = 0);
+class Circle : public Figure {
+   public:
+    explicit Circle(QPointF point, QObject* parent = nullptr);
 
-    qreal perimetr();
-    qreal surface();
+    qreal perimetr() override;
+    qreal surface() override;
 
-private:
-    void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget) override;
+   private:
+    void paint(QPainter* painter, const QStyleOptionGraphicsItem* option,
+               QWidget* widget) override;
 };
 
-#endif // CIRCLE_H
+#endif	// CIRCLE_H

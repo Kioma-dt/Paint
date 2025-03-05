@@ -3,14 +3,12 @@
 
 #include "polygon.h"
 
-class Rhomb : public Polygon
-{
-public:
-    explicit Rhomb(QPointF point, QObject *parent = 0);
+class Rhomb : public Polygon {
+   public:
+    explicit Rhomb(QPointF point, QObject* parent = nullptr);
 
-    qreal perimetr();
-    qreal surface();
-
+    qreal perimetr() override;
+    qreal surface() override;
 };
 
-#endif // RHOMB_H
+#endif	// RHOMB_H

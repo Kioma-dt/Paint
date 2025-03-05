@@ -3,13 +3,12 @@
 
 #include "polygon.h"
 
-class Hexagon : public Polygon
-{
-public:
-    explicit Hexagon(QPointF point, QObject *parent = 0);
+class Hexagon : public Polygon {
+   public:
+    explicit Hexagon(QPointF point, QObject* parent = nullptr);
 
-    qreal perimetr();
-    qreal surface();
+    qreal perimetr() override;
+    qreal surface() override;
 };
 
-#endif // HEXAGON_H
+#endif	// HEXAGON_H
