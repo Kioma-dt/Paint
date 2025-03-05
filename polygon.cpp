@@ -40,11 +40,11 @@ void Polygon::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, Q
         top = startPoint().y();
         right = endPoint().x();
         bottom = endPoint().y();
-        pol << QPoint((right + 2 * left) / 3, top)
-            << QPoint((2 * right + left) / 3, top)
-            << QPoint(right, (bottom + top) / 2)
-            << QPoint((right + left) / 2, bottom)
-            << QPoint(left, (bottom + top) / 2);
+        pol << QPoint((right + left) / 2, top)
+            << QPoint(right, (bottom + 2 * top) / 3)
+            << QPoint((3 * right + left) / 4, bottom)
+            << QPoint((right + 3 * left) / 4, bottom)
+            << QPoint(left, (bottom + 2 * top) / 3);
     }
     if (vertices == 6)
     {
