@@ -11,8 +11,8 @@ qreal Pentagon::perimetr()
     int width = qAbs(startPoint().x() - endPoint().x());
     int height = qAbs(startPoint().y() - endPoint().y());
 
-    return width / 3 + 2 * std::sqrt(pow(width / 3, 2) + pow(height / 2, 2))
-                    + 2 * std::sqrt(pow(width / 2, 2) + pow(height / 2, 2));
+    return width / 2 + 2 * std::sqrt(pow(width / 4, 2) + pow(2 * height / 3, 2))
+                    + 2 * std::sqrt(pow(width / 2, 2) + pow(height / 3, 2));
 }
 
 qreal Pentagon::surface()
@@ -20,6 +20,6 @@ qreal Pentagon::surface()
     int width = qAbs(startPoint().x() - endPoint().x());
     int height = qAbs(startPoint().y() - endPoint().y());
 
-    return width * height - width / 3 * height / 2
-                        - width / 2 * height / 2;
+    return width * height - (width / 4) *( 2 * height / 3)
+                        - (width / 2) * (height / 3);
 }

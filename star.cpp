@@ -24,16 +24,16 @@ void Star::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWid
         top = startPoint().y();
         right = endPoint().x();
         bottom = endPoint().y();
-        pol << QPoint((right + 2 * left) / 3, top)
-            << QPoint((right + left) / 2, (13 * top + 7 * bottom) / 20)
-            << QPoint((2 * right + left) / 3, top)
-            << QPoint((3 * right + 2 * left) / 5, (3 * top + 2 * bottom) / 5)
-            << QPoint(right, (bottom + top) / 2)
-            << QPoint((3 * right + 2 * left) / 5, (2 * top + 3 * bottom) / 5)
-            << QPoint((right + left) / 2, bottom)
-            << QPoint((2 * right + 3 * left) / 5, (2 * top + 3 * bottom) / 5)
-            << QPoint(left, (bottom + top) / 2)
-            << QPoint((2 * right + 3 * left) / 5, (3 * top + 2 * bottom) / 5);
+        pol << QPoint((right + left) / 2, top)
+            << QPoint((3 * right + 2 * left) / 5, (bottom + 2 * top) / 3)
+            << QPoint(right, (bottom + 2 * top) / 3)
+            << QPoint((13 * right + 7 * left) / 20, (13 * bottom + 7 * top) / 20)
+            << QPoint((3 * right + left) / 4, bottom)
+            << QPoint((right + left) / 2, (4 * bottom + top) / 5)
+            << QPoint((right + 3 * left) / 4, bottom)
+            << QPoint((7 * right + 13 * left) / 20, (13 * bottom + 7 * top) / 20)
+            << QPoint(left, (bottom + 2 * top) / 3)
+            << QPoint((2 * right + 3 * left) / 5, (bottom + 2 * top) / 3);
     }
     if (vertices == 6)
     {
